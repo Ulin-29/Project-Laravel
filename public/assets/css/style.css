@@ -1,0 +1,187 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #d4c2aa;
+}
+
+.wrapper {
+    width: 100%;  
+    margin: auto;
+    position: relative;
+    background-color: #d4c2aa;
+}
+
+.logo a {
+    align-items: center;
+    font-size: 70px;
+    font-weight: 500;
+    float: left;
+    font-family: courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    line-height: 85px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin: 50px;
+}
+
+.gambar img {
+    width: 85%;
+    height: auto;
+    position: relative;
+    top: 75%;
+    left: 7%;
+    padding: 15px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1; /* Nggo ngesog teks nang nduwur tombol */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    white-space: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    animation: typing 8s steps(60) infinite; /* nggawe animasi karo ngulang terus */
+  }
+  
+  /* keyframes nggo ngetik */
+  @keyframes typing {
+    from, to {
+      width: 0; 
+    }
+    50% {
+      width: 48%; 
+    }
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+  
+.about {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    height: 80vh; /*Nggo jarak Nduwur Ngisor*/
+    left: 30%;
+}
+
+.about-img img {
+    max-width: 500%;
+    width: 500px;
+    height: 700px;
+    opacity: 0;
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.about-text {
+    margin-left: 20px;
+}
+
+.about-text h2 {
+    font-size: var(--h2-dont);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-text p {
+    margin: 0.8rem 0 1.8rem;
+    line-height: 1.7;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* sembunyi */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+/* Muncul */
+.about:hover .fade-in,
+.about.show .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* smooth */
+.about,
+.about.show {
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+/* men ra ilang */
+.about.show .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.bawah{
+    background-color: #333; 
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        position: relative;
+        bottom: 0;
+        width: 97,9%;
+        height: 6vh;
+}
