@@ -37,7 +37,7 @@
                 <h2 class="text-yellow-500 text-5xl font-bold">Selamat Datang Di</h2>
                 <h3 class="text-gray-800 text-4xl font-semibold mb-6">Warung Retno</h3>
                 <p class="text-gray-700 text-lg leading-relaxed font-serif">
-                Richies telah berdiri sejak 1976, menjadi salah satu pelopor dalam penyajian makanan khas Indonesia yang penuh cita rasa. Kami bangga menawarkan berbagai hidangan tradisional yang tidak hanya lezat, tetapi juga membawa kenangan kuliner nusantara ke meja Anda. Dengan menggunakan bahan-bahan pilihan dan resep warisan turun-temurun, setiap sajian kami hadir dengan kualitas terbaik untuk memuaskan selera Anda. Nikmati pengalaman kuliner yang tak terlupakan hanya di Richies, tempat di mana rasa dan tradisi berpadu sempurna.
+                W.M Retno telah berdiri sejak 1976, menjadi salah satu pelopor dalam penyajian makanan khas Indonesia yang penuh cita rasa. Kami bangga menawarkan berbagai hidangan tradisional yang tidak hanya lezat, tetapi juga membawa kenangan kuliner nusantara ke meja Anda. Dengan menggunakan bahan-bahan pilihan dan resep warisan turun-temurun, setiap sajian kami hadir dengan kualitas terbaik untuk memuaskan selera Anda. Nikmati pengalaman kuliner yang tak terlupakan hanya di Richies, tempat di mana rasa dan tradisi berpadu sempurna.
                 </p>
             </div>
         </div>

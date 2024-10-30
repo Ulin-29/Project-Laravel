@@ -13,7 +13,7 @@
                 <div class="logo"><a href="">A7X</a></div>
                 <div class="menu">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="{{ route ('about') }}">About</a></li>
                         <li><a href="Music.html">Music</a></li>
                         <li><a href="Member.html">Member</a></li>
                         <li><a href="Vidios.html">Vidios</a></li>
